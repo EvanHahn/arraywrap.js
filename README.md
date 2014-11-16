@@ -1,5 +1,5 @@
-array wrap
-==========
+array wrap dot js
+=================
 
 If it's not an array, make it one:
 
