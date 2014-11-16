@@ -1,0 +1,30 @@
+{
+  "name": "arraywrap",
+  "version": "0.1.0",
+  "description": "if it's not an array, wrap it in an array. if it's already an array, do nothing.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanHahn/arraywrap.js.git"
+  },
+  "keywords": [
+    "array",
+    "wrap",
+    "isarray"
+  ],
+  "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanHahn/arraywrap.js/issues"
+  },
+  "homepage": "https://github.com/EvanHahn/arraywrap.js",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
