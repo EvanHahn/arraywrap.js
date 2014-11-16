@@ -2,7 +2,7 @@
   "name": "arraywrap",
   "version": "0.1.0",
   "description": "if it's not an array, wrap it in an array. if it's already an array, do nothing.",
-  "main": "index.js",
+  "main": "arraywrap.js",
   "directories": {
     "test": "test"
   },
