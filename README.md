@@ -31,4 +31,4 @@ To use it in the browser:
 <script>arrayWrap(47)</script>
 ```
 
-If you need to support browsers that don't have `Array.isArray` (like IE8 and below), you'll need to [polyfill it](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray#Polyfill).
+This should support environments that don't have `Array.isArray` (like IE8 and below).
