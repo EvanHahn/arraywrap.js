@@ -16,6 +16,9 @@ If it's already an array, do nothing:
 ```js
 arrayWrap([1, 2, 3])  // => [1, 2, 3]
 arrayWrap([])         // => []
+
+var arr = [1, 2]
+arrayWrap(arr) === arr  // true
 ```
 
 To use it in Node/Browserify/Webpack:
