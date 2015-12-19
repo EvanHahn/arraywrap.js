@@ -4,17 +4,18 @@ array wrap dot js
 If it's not an array, make it one:
 
 ```js
-arrayWrap(123)   // => [123]
-arrayWrap('yo')  // => ['yo']
-arrayWrap(null)  // => [null]
-arrayWrap()      // => []
+arrayWrap(123)        // => [123]
+arrayWrap('yo')       // => ['yo']
+arrayWrap(null)       // => [null]
+arrayWrap(undefined)  // => [undefined]
+arrayWrap()           // => []
 ```
 
 If it's already an array, do nothing:
 
 ```js
-arrayWrap([1, 2, 3]) // => [1, 2, 3]
-arrayWrap([])        // => []
+arrayWrap([1, 2, 3])  // => [1, 2, 3]
+arrayWrap([])         // => []
 ```
 
 To use it in Node/Browserify/Webpack:
