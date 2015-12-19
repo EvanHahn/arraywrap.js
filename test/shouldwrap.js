@@ -1,36 +1,36 @@
-var wrap = require('..');
+var wrap = require('..')
 
-var assert = require('assert');
+var assert = require('assert')
 
-describe('should wrap', function() {
+describe('should wrap', function () {
+  it('primitives', function () {
+    assert.deepEqual(wrap(12), [12])
+    assert.deepEqual(wrap(true), [true])
+    assert.deepEqual(wrap('yas'), ['yas'])
+  })
 
-  it('primitives', function() {
-    assert.deepEqual(wrap(12), [12]);
-    assert.deepEqual(wrap(true), [true]);
-    assert.deepEqual(wrap('yas'), ['yas']);
-  });
+  it('objects', function () {
+    var obj = { yasgaga: 'yas' }
 
-  it('objects', function() {
-    var obj = { yasgaga: 'yas' };
-    assert.deepEqual(wrap(obj), [obj]);
-  });
+    assert.deepEqual(wrap(obj), [obj])
+  })
 
-  it('null', function() {
-    assert.deepEqual(wrap(null), [null]);
-  });
+  it('null', function () {
+    assert.deepEqual(wrap(null), [null])
+  })
 
-  it('NaN', function() {
-    var wrapped = wrap(0 / 0);
-    assert.equal(wrapped.length, 1);
-    assert(Number.isNaN(wrapped[0]));
-  });
+  it('NaN', function () {
+    var wrapped = wrap(0 / 0)
 
-  it('undefined', function() {
-    assert.deepEqual(wrap(undefined), [undefined]);
-  });
+    assert.equal(wrapped.length, 1)
+    assert(Number.isNaN(wrapped[0]))
+  })
 
-  it('nothing', function() {
-    assert.deepEqual(wrap(), []);
-  });
+  it('undefined', function () {
+    assert.deepEqual(wrap(undefined), [undefined])
+  })
 
-});
+  it('nothing', function () {
+    assert.deepEqual(wrap(), [])
+  })
+})
