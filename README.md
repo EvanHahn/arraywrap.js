@@ -1,6 +1,5 @@
 array wrap dot js
 =================
-[![Build Status](https://travis-ci.org/EvanHahn/arraywrap.js.svg?branch=master)](https://travis-ci.org/EvanHahn/arraywrap.js)
 [![npm version](https://badge.fury.io/js/arraywrap.svg)](http://badge.fury.io/js/arraywrap)
 
 If it's not an array, make it one:
