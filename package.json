@@ -29,11 +29,5 @@
   "devDependencies": {
     "eslint": "^3.10.2",
     "prettier": "^2.3.2"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "it"
-    ]
   }
 }
