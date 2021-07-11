@@ -4,7 +4,11 @@
   "description": "if it's not an array, wrap it in an array. if it's already an array, do nothing.",
   "main": "arraywrap.js",
   "scripts": {
-    "pretest": "standard",
+    "pretest": "npm run lint",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:eslint": "eslint \"**/*.js\"",
+    "lint:prettier": "prettier --check \"**/*.{js,json,md}\"",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
     "test": "node test"
   },
   "repository": {
@@ -23,7 +27,8 @@
   },
   "homepage": "https://github.com/EvanHahn/arraywrap.js",
   "devDependencies": {
-    "standard": "^8.5.0"
+    "eslint": "^3.10.2",
+    "prettier": "^2.3.2"
   },
   "standard": {
     "globals": [
