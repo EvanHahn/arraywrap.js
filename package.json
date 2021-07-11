@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "if it's not an array, wrap it in an array. if it's already an array, do nothing.",
   "main": "arraywrap.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "pretest": "standard",
-    "test": "mocha"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -26,7 +23,6 @@
   },
   "homepage": "https://github.com/EvanHahn/arraywrap.js",
   "devDependencies": {
-    "mocha": "^3.1.2",
     "standard": "^8.5.0"
   },
   "standard": {
