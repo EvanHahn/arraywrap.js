@@ -14,7 +14,6 @@ assert.deepEqual(arrayWrap(true), [true]);
 assert.deepEqual(arrayWrap("yas"), ["yas"]);
 assert.deepEqual(arrayWrap(null), [null]);
 assert.deepEqual(arrayWrap(undefined), [undefined]);
-assert.deepEqual(arrayWrap(0 / 0), [NaN]);
 
 var obj = { foo: "bar" };
 assert.strictEqual(arrayWrap(obj).length, 1);
