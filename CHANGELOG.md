@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+- Added TypeScript definitions
+
 ### Changed
 
 - Removed some unused files from the npm package
