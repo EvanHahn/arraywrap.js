@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.1 - 2022-05-16
+
+### Added
+
+- Actually added TypeScript definitions. See [#1](https://github.com/EvanHahn/arraywrap.js/pull/1)
+
 ## 1.1.0 - 2021-11-10
 
 ### Added
