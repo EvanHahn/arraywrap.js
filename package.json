@@ -1,6 +1,6 @@
 {
   "name": "arraywrap",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "if it's not an array, wrap it in an array. if it's already an array, do nothing.",
   "main": "arraywrap.js",
   "types": "arraywrap.d.ts",
