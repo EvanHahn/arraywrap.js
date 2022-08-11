@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- **Breaking:** removed `<script>` tag support
+
 ## 1.1.1 - 2022-05-16
 
 ### Added

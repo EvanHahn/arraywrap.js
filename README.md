@@ -5,37 +5,23 @@
 If it's not an array, make it one:
 
 ```js
-arrayWrap(123); // => [123]
-arrayWrap("yo"); // => ['yo']
-arrayWrap(null); // => [null]
-arrayWrap(undefined); // => [undefined]
-arrayWrap(); // => []
+const arraywrap = require("arraywrap");
+
+arraywrap(123); // => [123]
+arraywrap("yo"); // => ['yo']
+arraywrap(null); // => [null]
+arraywrap(undefined); // => [undefined]
+arraywrap(); // => []
 ```
 
 If it's already an array, do nothing:
 
 ```js
-arrayWrap([1, 2, 3]); // => [1, 2, 3]
-arrayWrap([]); // => []
+arraywrap([1, 2, 3]); // => [1, 2, 3]
+arraywrap([]); // => []
 
-var arr = [1, 2];
+const arr = [1, 2];
 arrayWrap(arr) === arr; // true
 ```
 
-To use it in Node/Browserify/Webpack:
-
-```js
-var arrayWrap = require("arraywrap");
-arrayWrap(47);
-```
-
-To use it in the browser:
-
-```html
-<script src="arraywrap.js"></script>
-<script>
-  arrayWrap(47);
-</script>
-```
-
-This should support environments that don't have `Array.isArray` (like IE8 and below).
+This supports environments that don't have `Array.isArray` (like IE8 and below).

@@ -1,21 +1,13 @@
-(function () {
-  var isArray =
-    Array.isArray ||
-    function (value) {
-      return Object.prototype.toString.call(value) === "[object Array]";
-    };
+var isArray =
+  Array.isArray ||
+  function (value) {
+    return Object.prototype.toString.call(value) === "[object Array]";
+  };
 
-  function arrayWrap(value) {
-    if (arguments.length) {
-      return isArray(value) ? value : [value];
-    } else {
-      return [];
-    }
-  }
-
-  if (typeof module !== "undefined") {
-    module.exports = arrayWrap;
+module.exports = function arrayWrap(value) {
+  if (arguments.length) {
+    return isArray(value) ? value : [value];
   } else {
-    this.arrayWrap = arrayWrap;
+    return [];
   }
-})();
+};
