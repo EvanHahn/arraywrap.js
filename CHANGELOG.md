@@ -5,6 +5,7 @@
 ### Changed
 
 - **Breaking:** removed `<script>` tag support
+- Updated TypeScript definitions to support no arguments
 
 ## 1.1.1 - 2022-05-16
 
