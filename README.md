@@ -1,4 +1,4 @@
-# array wrap dot js
+# arraywrap.js
 
 [![npm version](https://badge.fury.io/js/arraywrap.svg)](http://badge.fury.io/js/arraywrap)
 
