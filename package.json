@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EvanHahn/arraywrap.js.git"
+    "url": "https://git.sr.ht/~evanhahn/arraywrap.js"
   },
   "keywords": [
     "array",
@@ -30,9 +30,9 @@
   "author": "Evan Hahn <me@evanhahn.com> (https://evanhahn.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EvanHahn/arraywrap.js/issues"
+    "email": "me@evanhahn.com"
   },
-  "homepage": "https://github.com/EvanHahn/arraywrap.js",
+  "homepage": "https://git.sr.ht/~evanhahn/arraywrap.js",
   "devDependencies": {
     "eslint": "^8.21.0",
     "prettier": "^2.7.1"
