@@ -7,7 +7,6 @@ var isArray =
 module.exports = function arrayWrap(value) {
   if (arguments.length) {
     return isArray(value) ? value : [value];
-  } else {
-    return [];
   }
+  return [];
 };
