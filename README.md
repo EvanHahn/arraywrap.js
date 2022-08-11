@@ -1,7 +1,5 @@
 # arraywrap.js
 
-[![npm version](https://badge.fury.io/js/arraywrap.svg)](http://badge.fury.io/js/arraywrap)
-
 If it's not an array, make it one:
 
 ```js
